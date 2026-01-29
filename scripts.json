@@ -1,0 +1,14 @@
+[
+  {
+    "name": "man",
+    "author": "Kuingsmile",
+    "description": "test",
+    "version": "1.0.0",
+    "fileName": "test.js",
+    "category": "manualTrigger",
+    "content": "/**\n * @name man\n * @author Kuingsmile\n * @description test\n * @version 1.0.0\n */\n\n// ctx 为 核心PicList实例, extra为额外参数, 其中extra.galleryItem为当前删除的相册对象\n// 可用额外API: axios, crypto, fs, path, os, setTimeout, setInterval, clearTimeout, clearInterval, base64Decode, base64Encode\n// 使用console.log或ctx.log输出的信息在软件日志文件piclist.log中可以查询到\n\nasync function main(ctx, extra) {\n  console.log('env.TEST_ENV : ',env.TEST_ENV)\n  return ctx\n}",
+    "downloadUrl": "https://cdn.jsdelivr.net/gh/Kuingsmile/piclist-ScriptsHub@main/manualTrigger/test.js",
+    "createdAt": "2026-01-29T13:22:42.125Z",
+    "updatedAt": "2026-01-29T13:22:42.125Z"
+  }
+]
